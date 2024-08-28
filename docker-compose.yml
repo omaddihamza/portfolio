@@ -5,7 +5,7 @@ services:
     environment:
       POSTGRES_DB: portfolio_db
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: CLI123
+      POSTGRES_PASSWORD:
     volumes:
       - db_data:/var/lib/postgresql/data
     ports:
